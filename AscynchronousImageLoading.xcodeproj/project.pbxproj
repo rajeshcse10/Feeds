@@ -15,6 +15,9 @@
 		18DAE20A200A315F00622ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DAE208200A315F00622ADB /* LaunchScreen.storyboard */; };
 		18DAE215200A315F00622ADB /* AscynchronousImageLoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DAE214200A315F00622ADB /* AscynchronousImageLoadingTests.m */; };
 		18DAE220200A315F00622ADB /* AscynchronousImageLoadingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DAE21F200A315F00622ADB /* AscynchronousImageLoadingUITests.m */; };
+		18DAE230200A32E000622ADB /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DAE22E200A32E000622ADB /* CustomTableViewCell.m */; };
+		18DAE231200A32E000622ADB /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DAE22F200A32E000622ADB /* CustomTableViewCell.xib */; };
+		18DAE234200A412C00622ADB /* TableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DAE233200A412C00622ADB /* TableItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		18DAE21B200A315F00622ADB /* AscynchronousImageLoadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AscynchronousImageLoadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DAE21F200A315F00622ADB /* AscynchronousImageLoadingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AscynchronousImageLoadingUITests.m; sourceTree = "<group>"; };
 		18DAE221200A315F00622ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DAE22D200A32E000622ADB /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		18DAE22E200A32E000622ADB /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		18DAE22F200A32E000622ADB /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		18DAE232200A412C00622ADB /* TableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableItem.h; sourceTree = "<group>"; };
+		18DAE233200A412C00622ADB /* TableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,11 @@
 				18DAE208200A315F00622ADB /* LaunchScreen.storyboard */,
 				18DAE20B200A315F00622ADB /* Info.plist */,
 				18DAE1FA200A315F00622ADB /* Supporting Files */,
+				18DAE22D200A32E000622ADB /* CustomTableViewCell.h */,
+				18DAE22E200A32E000622ADB /* CustomTableViewCell.m */,
+				18DAE22F200A32E000622ADB /* CustomTableViewCell.xib */,
+				18DAE232200A412C00622ADB /* TableItem.h */,
+				18DAE233200A412C00622ADB /* TableItem.m */,
 			);
 			path = AscynchronousImageLoading;
 			sourceTree = "<group>";
@@ -251,6 +264,7 @@
 			files = (
 				18DAE20A200A315F00622ADB /* LaunchScreen.storyboard in Resources */,
 				18DAE207200A315F00622ADB /* Assets.xcassets in Resources */,
+				18DAE231200A32E000622ADB /* CustomTableViewCell.xib in Resources */,
 				18DAE205200A315F00622ADB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +292,8 @@
 			files = (
 				18DAE202200A315F00622ADB /* ViewController.m in Sources */,
 				18DAE1FF200A315F00622ADB /* AppDelegate.m in Sources */,
+				18DAE230200A32E000622ADB /* CustomTableViewCell.m in Sources */,
+				18DAE234200A412C00622ADB /* TableItem.m in Sources */,
 				18DAE1FC200A315F00622ADB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
